@@ -54,8 +54,12 @@ GEM
       sprockets (~> 2)
     json (1.6.5)
     mime-types (1.17.2)
+    mini_portile2 (2.8.2)
     multi_json (1.0.4)
-    nokogiri (1.5.0)
+    nokogiri (1.15.3)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
+    racc (1.7.1)
     rack (1.6.13)
     rack-protection (1.5.5)
       rack
