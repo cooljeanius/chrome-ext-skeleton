@@ -6,10 +6,11 @@ gem 'coffee-script'
 gem 'execjs'
 
 gem "uglifier"
-gem "sass"
+gem "sassc"
 gem "sprockets"
 gem "eco"
 
+gem 'rack'
 gem 'rake'
 
 group :development, :test do
