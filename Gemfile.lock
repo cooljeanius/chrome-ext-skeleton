@@ -22,7 +22,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    cucumber (9.1.1)
+    cucumber (9.1.2)
       builder (~> 3.2, >= 3.2.4)
       cucumber-ci-environment (~> 9.2, >= 9.2.0)
       cucumber-core (~> 12.0)
