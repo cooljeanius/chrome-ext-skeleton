@@ -1,3 +1,4 @@
+---
 src_files:
   - "application.js"
 
@@ -12,4 +13,3 @@ spec_files:
 src_dir: "assets/javascripts"
 
 spec_dir: spec
-
