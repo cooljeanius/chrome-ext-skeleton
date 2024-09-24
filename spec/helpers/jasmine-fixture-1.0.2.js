@@ -57,7 +57,7 @@ site: https://github.com/searls/jasmine-fixture
           parent = (context ? context : $("#" + rootId));
           $toInject = void 0;
           if (itLooksLikeHtml(arg)) {
-            $toInject = $(arg);
+            $toInject = $(jQuery.parseHTML(arg));
           } else {
             config = $.extend({}, defaults, arg, {
               userString: arg
