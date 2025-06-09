@@ -9,8 +9,20 @@ updates:
   - package-ecosystem: "bundler"  # See documentation for possible values
     directory: "/"  # Location of package manifests
     schedule:
-      interval: "weekly"
+      interval: "monthly"
+    labels:
+      - enhancement
+    groups:
+      bundler:
+        patterns:
+          - "*"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
+    labels:
+      - enhancement
+    groups:
+      actions:
+        patterns:
+          - "*"
