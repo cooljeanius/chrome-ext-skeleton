@@ -56,7 +56,8 @@ GEM
       eco-source
       execjs
     eco-source (1.1.0.rc.1)
-    execjs (2.10.1)
+    execjs (2.10.2)
+      json (>= 2)
     ffi (1.17.4-x86_64-darwin)
     ffi (1.17.4-x86_64-linux-gnu)
     formatador (1.2.3)
